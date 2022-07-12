@@ -286,6 +286,10 @@
         width: 25%;
         padding-top: 3rem;
         padding-bottom: 3rem;
+        transition: all 0.3s;
+    }
+    .contenedorProductos__item:hover {
+        transform: scale(1.05, 1.05);
     }
     /* termina productos y uso */
     /* inicia galeria */
