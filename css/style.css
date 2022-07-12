@@ -357,11 +357,11 @@
     }
     .contenedorImagenes__item6 {
         grid-area: img6;
-        background-image: url("../img/galeria/6.jpg");
+        background-image: url("../img/galeria/6.JPG");
     }
     .contenedorImagenes__item7 {
         grid-area: img7;
-        background-image: url("../img/galeria/7.jpg");
+        background-image: url("../img/galeria/7.JPG");
     }
     .contenedorImagenes__item8 {
         grid-area: img8;
