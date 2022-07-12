@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <title>Contacto - FlyHunt - Trampas ecologicas para moscas</title>
+</head>
+
+<body>
+    <!-- inicia header -->
+    <header class="contenedorBotonera">
+        <a href="../index.html">
+            <img class="logo" src="../img/logo.png" alt="logo de FlyHunt - Trampas ecologicas para moscas">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos-y-uso.html">Productos y uso</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- finaliza header -->
+    <!-- inicia seccion principal pagina contacto -->
+    <main>
+        <!-- comienza la sección del formulario de contacto con su título y descripción -->
+        <section>
+            <article class="contenedorPrincipalFormulario">
+                <div class="contenedorPrincipalFormulario__cajaEncabezado">
+                    <h1 class="contenedorPrincipalFormulario__encabezado">Contacto</h1>
+                    <p class="contenedorPrincipalFormulario__texto">Escribinos, queremos conocerte y saber en qué te podemos ayudar. Esperamos tu mensaje y te responderemos vía correo electrónico a la brevedad</p>
+                </div>
+                <div class="contenedorPrincipalFormulario__cajaFormulario">
+                    <form>
+                        <label for="nombre-apellido">Nombre y apellido:</label>
+                        <input type="text" name="nombre-apellido" placeholder="Nombre y apellido">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" placeholder="Email">
+                        <label for="ubicacion">¿De dónde sos?</label>
+                        <input type="radio" name="ubicacion" value="argentina">
+                        <span>Argentina</span>
+                        <input type="radio" name="ubicacion" value="exterior">
+                        <span>Resto del mundo</span>
+                        <fieldset>
+                            <legend>Tipo de uso e intereses</legend>
+                            <label class="mrgt1r" for="tipo-de-uso">Tipo de uso:</label>
+                            <select class="mrgb1r" name="tipo-de-uso">
+                            <option value="personal">Personal</option>
+                            <option value="empresa-pequeña">Empresa pequeña</option>
+                            <option value="empresa-mediana">Empresa mediana</option>
+                            <option value="empresa-grande">Empresa grande</option>
+                            </select>
+                            <label for="intereses">Productos de interés:</label>
+                            <input type="checkbox" name="intereses" value="trampas">Trampas
+                            <input class="mrgl1r" type="checkbox" name="intereses" value="cebos">Cebos
+                            <input class="mrgl1r" type="checkbox" name="intereses" value="aros">Aros de soporte
+                        </fieldset>
+                        <label for="mensajeusuario">Tu mensaje:</label>
+                        <textarea name="mensajeusuario" cols="30" rows="10" placeholder="dejanos tu mensaje"></textarea>
+                        <input class="buttonFly" type="submit" value="Enviar">
+                        <input class="mrgl1r buttonFly" type="reset" value="Borrar todo">
+                    </form>
+                </div>
+            </article>
+        </section>
+        <!-- finaliza la sección del formulario de contacto con su título y descripción -->
+
+
+        <!-- comienza seccion para mostrar mapa -->
+        <section class="contenedorMapa wow bounceInUp">
+            <article>
+                <h2 class="contenedorMapa__encabezado">Ubicación</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.029779155979!2d-58.38758398504374!3d-34.603408480459485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac678504f45%3A0xf2519648a88ea112!2sTalcahuano%20446%2C%20C1013%20CABA!5e0!3m2!1ses-419!2sar!4v1655489127760!5m2!1ses-419!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+        <!-- finaliza seccion para mostrar mapa-->
+    </main>
+    <!-- finaliza seccion principal pagina contacto -->
+    <!-- arranca footer -->
+    <footer>
+        <div class="footer__texto">
+            <span>Seguinos en nuestras redes sociales</span>
+        </div>
+        <div class="footer__redes">
+            <a href="https://facebook.com/flyhuntok" target="_blank">
+                <img src="../img/facebook.png" alt="acceso a facebook">
+            </a>
+            <a href="https://instagram.com/flyhuntok" target="_blank">
+                <img src="../img/instagram.png" alt="acceso a instagram">
+            </a>
+        </div>
+    </footer>
+    <!-- termina footer -->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
